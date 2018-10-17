@@ -18,14 +18,12 @@ Running the solidity test: `truffle test ./test/TestRCoin.sol`
 
 Running the JavaScript test: `truffle test ./test/RCoin.js`
 
-*Compiling* the smart contracts: `truffle compile`
+Compiling the smart contracts: `truffle compile`
 
 Migrating:
 
 - Migrating with Truffle Develop:
-To deploy our smart contracts, we're going to need to connect to a blockchain. Truffle has a built-in personal blockchain that can be used for testing. This blockchain is local to your system and does not interact with the main Ethereum network. You can create this blockchain and interact with it using Truffle Develop: `truffle develop`
-
-then, on truffle develop prompt type `migrate`. The output will show the transaction IDs and addresses of your deployed contracts.
+To deploy our smart contracts, we're going to need to connect to a blockchain. Truffle has a built-in personal blockchain that can be used for testing. This blockchain is local to your system and does not interact with the main Ethereum network. You can create this blockchain and interact with it using `truffle develop` then, on truffle develop prompt type `migrate`. The output will show the transaction IDs and addresses of your deployed contracts.
 
 - Migrating with Ganache, a desktop application, to launch your personal blockchain.
 
