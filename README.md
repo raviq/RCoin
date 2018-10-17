@@ -10,16 +10,15 @@ coin/token contracts. If you want to create a standards-compliant token, check [
 Important files:
 - `contracts/RCoin.sol` is a smart contract (written in Solidity) that creates a RCoin token.
 - `contracts/Migrations.sol file` manages and updates the status of your deployed smart contract. This file comes with every [Truffle](https://truffleframework.com/) project, and is usually not edited.
-- `truffle.js` file is the Truffle configuration file, for setting network information and other project-related settings. The file is blank, but this is okay, as we'll be using a Truffle command that has some defaults built-in.
+- `truffle.js` is the Truffle configuration file, for setting network information and other project-related settings. The file is blank, but this is okay, as we will be using a Truffle command that has some defaults built-in.
 - `test/TestRcoin.sol`  is a test file written in Solidity which ensures that your contract is working as expected.
-- `test/rcoin.js` is a test file written in JavaScript which performs a similar function to the Solidity test above. 
-
+- `test/rcoin.js` is a test file written in JavaScript which performs a similar function to the Solidity test above.
 
 Running the solidity test: `truffle test ./test/TestRCoin.sol`
 
-Run the JavaScript test: `truffle test ./test/RCoin.js`
+Running the JavaScript test: `truffle test ./test/RCoin.js`
 
-*Compile* the smart contracts: `truffle compile`
+*Compiling* the smart contracts: `truffle compile`
 
 Migrating:
 
